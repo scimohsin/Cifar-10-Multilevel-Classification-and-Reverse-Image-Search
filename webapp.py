@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.write("Hello World kese ho")
+st.title("Hello World kese ho")
 uploaded_file = st.file_uploader("Choose an image")
 if uploaded_file is not None:
     if save_uploaded_file(uploaded_file):
