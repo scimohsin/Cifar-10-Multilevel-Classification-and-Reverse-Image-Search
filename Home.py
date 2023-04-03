@@ -6,5 +6,5 @@ st.set_page_config(
 
 st.title("CIFAR-10 Multi-Level Classification and Reverse Image Search")
 
-st.markdown("**This is a streamlit web app which uses a convolutional neural network to predict classes of unseen images on multi-level, \nand also displays similar images to any photo.**")
+st.markdown("**Welcome to our image classification and reverse search webapp! Our tool is powered by a convolutional neural network (CNN) trained on the CIFAR-10 dataset, which allows us to classify images and perform reverse image searches.\nlineWith our webapp, you can upload an image and our model will first classify it into one of two categories, which are Living and Non-Living and the secondly into ten categories, including airplane, automobile, bird, cat, deer, dog, frog, horse, ship, and truck.\nlineYou can also perform a reverse search by uploading an image and our model will find images similar to it in our database. Give it a try and discover what our model can do!**")
 
