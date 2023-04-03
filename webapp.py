@@ -1,5 +1,11 @@
 import streamlit as st
 
+st.set_page_config(
+    page_title="webapp"
+)
+st.sidebar.success("Select an option")
+
+
 st.title("Multi-Level Image Classification and Reverse Image Search")
 uploaded_file = st.file_uploader("Choose an image")
 if uploaded_file is not None:
