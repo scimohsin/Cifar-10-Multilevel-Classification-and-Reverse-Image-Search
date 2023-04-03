@@ -1,3 +1,3 @@
 import streamlit as st
 
-st.title("Multi-Level Classification Using CIFAR-10")
+st.title("10 Class Multi-Level Classification")
