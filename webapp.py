@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("Hello World kese ho")
+st.title("Multi-Level Image Classification and Reverse Image Search")
 uploaded_file = st.file_uploader("Choose an image")
 if uploaded_file is not None:
     if save_uploaded_file(uploaded_file):
