@@ -12,7 +12,7 @@ def load_lottie(url: str):
         return None
     return r.json()
 
-lottie_home = load_lottieurl("https://assets9.lottiefiles.com/packages/lf20_KS2VTJka6L.json")
+lottie_home = load_lottieurl("https://lottie.host/f736d940-7ff0-44fc-869c-f15ba50d254b/4NTH9SP6hA.json")
 
 st.set_page_config(
     page_title="Home"
