@@ -1,4 +1,4 @@
 streamlit
 streamlit_lottie
 tensorflow
-cv2
+opencv-python
