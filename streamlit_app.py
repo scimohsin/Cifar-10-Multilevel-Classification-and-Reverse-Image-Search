@@ -2,18 +2,6 @@ import streamlit as st
 from streamlit_lottie import st_lottie
 import requests
 
-def load_lottiefile(filepath: str):
-    with open(filepath, "r") as f:
-        return json.load(f)
-    
-def load_lottie(url: str):
-    r = requests.get(url)
-    if r.status_code != 200:
-        return None
-    return r.json()
-
-lottie_home = load_lottieurl("https://lottie.host/f736d940-7ff0-44fc-869c-f15ba50d254b/4NTH9SP6hA.json")
-
 st.set_page_config(
     page_title="Home"
 )
