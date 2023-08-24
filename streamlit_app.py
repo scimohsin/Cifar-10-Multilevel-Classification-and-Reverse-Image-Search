@@ -1,5 +1,5 @@
 import streamlit as st
-!pip install streamlit_lottie
+pip install streamlit_lottie
 from streamlit_lottie import st_lottie
 import requests
 
